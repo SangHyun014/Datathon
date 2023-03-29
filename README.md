@@ -14,5 +14,5 @@
 ### 어떤 Data 인가?
 |Folder|Column|
 |---|---|
-|orders|order_id : 주문 ID\user_id : 구매자 ID\eval_set :  prior/tain/test로 나뉘며, 마지막 주문은 train/test로 나뉜다.\order_number : 주문 수\order_dow : 주문 요일\
+|orders|order_id : 주문 ID\nuser_id : 구매자 ID\eval_set :  prior/tain/test로 나뉘며, 마지막 주문은 train/test로 나뉜다.\order_number : 주문 수\order_dow : 주문 요일\
 order_hour_of_day : 주문 시간\days_since_prior_order : 재주문 시간\(하나의 행은 하나의 주문)|
