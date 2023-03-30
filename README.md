@@ -20,3 +20,6 @@
 |products|product_id : 상품 ID<br>product_name : 상품명<br>aisle_id : 진열대 ID<br>department_id : 상품군 ID|
 |aisles|aisle_id : 진열대 ID<br>aisle : 진열대명|
 |departments|department_id : 상품군 ID<br>department : 상품군명|
+
+---
+### 결론
