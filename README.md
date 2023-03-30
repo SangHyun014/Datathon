@@ -23,7 +23,39 @@
 
 ---
 ### EDA
+우선 orders data를 먼저 살펴보자
 
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0d399c7-0344-4a7c-a0e5-5d0b4621618f/Untitled.png)
+
+해당 graph는 eval_set column을 종류 별로 분류한 것이다.
+
+총 data 중 prior이 압도적으로 많음을 보여주고 있다.
+
+train 데이터를 추가해도 결과에 미치는 영향이 미미할 것 같아서 prior만 가지고 EDA를 진행하였다.
+
+order_product_prior와 다른 csv 파일들을 merge하여 하나의 데이터셋으로 만들어준 후 다음을 분석하였다.
+
+1. 어느 제품군에서 많이 팔렸는가?
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84b75214-f7a6-444f-88d7-3ce4db36ed66/Untitled.png)
+    
+    농수산물을 의미하는 produce가 제일 많이 팔렸고, 다음으로 달걀/유제품이 많이 팔렸다.
+    
+2. 어느 진열대에서 많이 팔렸는가?
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a518277-ecfb-4bbe-9a14-b8f2145842da/Untitled.png)
+    
+    신선 과일, 신선 채소와 같은 농산물이 가장 많이 팔렸고, 요거트, 치즈, 우유와 같은 유제품류도 다음으로 많이 팔린 것을 확인할 수 있다.
+    
+3. 어떤 제품이 많이 팔렸는가?
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80eef256-e747-4f28-a826-a037dd26b844/Untitled.png)
+    
+    바나나가 압도적으로 많이 팔린 것을 확인할 수 있다. 유기농 제품들도 눈에 보인다.
+    
+4. 제품군 별 진열대 정보 시각화
+    
+    ![newplot.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c1262a5-894d-4a42-9505-697c8a5ffd73/newplot.png)
 
 ---
 ### 결론
