@@ -22,4 +22,8 @@
 |departments|department_id : 상품군 ID<br>department : 상품군명|
 
 ---
+### EDA
+
+
+---
 ### 결론
